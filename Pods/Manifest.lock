@@ -1,0 +1,12 @@
+PODS:
+  - AppdelegateExtension (0.1.0)
+
+DEPENDENCIES:
+  - AppdelegateExtension (= 0.1.0)
+
+SPEC CHECKSUMS:
+  AppdelegateExtension: 20826a77863af3fa7f20164e68f2137e89962ce2
+
+PODFILE CHECKSUM: cab97f18d52f57c02e0008271dcc55fc85000ebc
+
+COCOAPODS: 1.4.0

@@ -1,0 +1,6 @@
+framework module AppdelegateExtension {
+  umbrella header "AppdelegateExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

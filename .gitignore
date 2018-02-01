@@ -1,0 +1,54 @@
+script/string/LocalizableForDevelop.strings
+script/string/update_localized_strings.pyc
+script/string/string_to_fucntion.pyc
+
+# Xcode
+.DS_Store
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.xcarchive
+Mobike.xcscheme
+oclint_result.html
+compile_commands.json
+MobikeComponentDemo/Pods/
+
+## fastlane
+fastlane/report.xml
+fastlane/README.md
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/tar.png
+
+## .warning_checker
+.warning_checker/last_result
+
+Carthage
+Mobike.app.dSYM.zip
+login.keychain
+
+
