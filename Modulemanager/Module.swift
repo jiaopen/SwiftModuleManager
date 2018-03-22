@@ -8,7 +8,19 @@
 
 import Foundation
 
-public protocol Module {
+public protocol Module: class {
     static func load() -> Module
+    var name: String? {get}
+    var version: String? {get}
 }
 
+extension Module {
+    
+    static var `default`: Self {
+        get{
+            let module = ModuleManager.module(Self.self)
+            assert(module != nil, "Module has not been loaded yet.")
+            return module!
+        }
+    }
+}

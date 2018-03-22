@@ -9,6 +9,11 @@
 import UIKit
 
 class HomeModule: Module {
+    
+    var name: String?
+    
+    var version: String?
+    
     static func load() -> Module {
         return HomeModule()
     }

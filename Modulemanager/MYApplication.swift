@@ -12,7 +12,7 @@ class MYApplication: UIApplication {
 
     override init() {
         super.init()
-        ModuleManager.loadModules(fromPlist: "Modules.plist")
+        ModuleManager.installModules(fromPlist: "Modules.plist")
     }
 
 }
